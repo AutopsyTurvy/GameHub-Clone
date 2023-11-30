@@ -47,6 +47,8 @@ function fetchData() {
           return false;
         });
     })
+
+    /*
     .catch(error => {
       console.error("An error occurred:", error.message);
 
@@ -66,6 +68,8 @@ function addProductToCart(id) {
       cart.push(id);
       localStorage.setItem("cart", cart.join(","));
   }
+  
+  */
 }
 
 fetchData();
